@@ -1,0 +1,47 @@
+/*Navbar style*/
+div .light-nav{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color1);
+    transition: 0.4s;
+}
+
+div .dark-nav{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color1);
+    transition: 0.4s;
+}
+header .light-home{
+    text-decoration: none;
+    color: #000;
+    transition: 0.4s;
+}
+
+header .dark-home{
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.4s;
+}
+
+header .light-login, .light-signup{
+    margin-right: 5%;
+    text-decoration: none;
+    color: #000;
+    transition: 0.4s;
+}
+
+header .dark-login, .dark-signup{
+    margin-right: 5%;
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.4s;
+}
